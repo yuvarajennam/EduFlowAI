@@ -1,9 +1,9 @@
 # 🎓 EduFlow AI
 ### *The Autonomous Learning Agent That Teaches, Tests & Adapts*
 
-> **"An autonomous AI agent that builds your personal learning path, teaches you, quizzes you, and adapts in real-time — like having a world-class tutor available 24/7."**
+> "An autonomous AI agent that builds your personal learning path, teaches you, quizzes you, and adapts in real-time — like having a world-class tutor available 24/7."
 
-Built for: **Education × AI/ML Hackathon** | Stack: **Gemini API + Firebase + FAISS**
+Built for: Education × AI/ML Hackathon | Stack: Gemini API + Firebase + FAISS
 
 ---
 
@@ -11,7 +11,7 @@ Built for: **Education × AI/ML Hackathon** | Stack: **Gemini API + Firebase + F
 
 In a classroom of 40+ students, personalized teaching is impossible. Every student learns differently, struggles with different concepts, and needs different pacing — yet they all get the same curriculum delivered at the same speed.
 
-**EduFlow AI solves this.** It gives every student their own autonomous AI tutor that knows exactly where they struggle, adapts in real-time, and never stops learning about the learner.
+EduFlow AI solves this It gives every student their own autonomous AI tutor that knows exactly where they struggle, adapts in real-time, and never stops learning about the learner.
 
 | Metric | Without EduFlow | With EduFlow |
 |---|---|---|
@@ -142,22 +142,20 @@ eduflow-ai/
 
 ---
 
-## 🤖 Key Agent Behaviors
+ Key Agent Behaviors
 
-**Function Calling for Structured Output** — The Quiz Agent uses Gemini's function calling to guarantee structured JSON quiz output with questions, options, correct answers, and concept tags.
+Function Calling for Structured Output — The Quiz Agent uses Gemini's function calling to guarantee structured JSON quiz output with questions, options, correct answers, and concept tags.
 
-**RAG-Powered Teaching** — Before every lesson, the agent retrieves semantically similar past mistakes from FAISS, so Gemini's explanation directly addresses what this specific student struggles with.
+RAG-Powered Teaching — Before every lesson, the agent retrieves semantically similar past mistakes from FAISS, so Gemini's explanation directly addresses what this specific student struggles with.
 
-**Autonomous Re-Planning** — The Re-Planner is triggered automatically when a quiz score falls below 70%, inserting a remedial module into the DAG without any human intervention.
+Autonomous Re-Planning — The Re-Planner is triggered automatically when a quiz score falls below 70%, inserting a remedial module into the DAG without any human intervention.
 
-**Hallucination Mitigation** — Every teaching step is grounded in retrieved student context. Resource Agent fetches real URLs. Quiz scoring uses exact-match. All JSON outputs are schema-validated.
+Hallucination Mitigation — Every teaching step is grounded in retrieved student context. Resource Agent fetches real URLs. Quiz scoring uses exact-match. All JSON outputs are schema-validated.
 
 ---
 
 ## 👥 Team
 
-Built in 24 hours at [Hackathon Name] | Domain: Education + Agentic AI
+Built in 24 hours at NeuraX 2.0 | Domain: AI & ML
 
 ---
-
-*EduFlow AI — Gemini API + Firebase + FAISS | Autonomous. Adaptive. Always learning.*
